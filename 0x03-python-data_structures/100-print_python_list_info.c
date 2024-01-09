@@ -1,9 +1,9 @@
-#include <python.h>
+#include <Python.h>
 #include <object.h>
 #include "listobject.h"
 void print_python_list_info(PyObject *p);
 {
-	long int size = pyList_size(p);
+	long int size = pyList_Size(p);
 	int i;
 	pyListObject *obj = (pyListObject *)p;
 
